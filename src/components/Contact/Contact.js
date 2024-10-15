@@ -25,10 +25,10 @@ const Contact = () => {
     setLoading(true);
     // Here, you can send the form data to an API endpoint (e.g., via fetch or axios)
     try {
-      const response = await axios.post(
-        "https://totle-portfolio-backend-mvc-2.onrender.com/feedback/contact",
-        formData
-      );
+      //const response = await axios.post(
+        //"https://totle-portfolio-backend-mvc-2.onrender.com/feedback/contact",
+        //formData
+      //);
       // console.log(response.data);
       // setSubmitted(true);
       toast.success("Message sent successfully! We will get back to you soon.");
