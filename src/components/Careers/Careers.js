@@ -1,5 +1,5 @@
 import React, { useEffect, useState, useRef } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import AOS from "aos"; // for scroll animations
 import "aos/dist/aos.css";
 import axios from "axios";
@@ -14,7 +14,7 @@ const Careers = () => {
     resume: null,
   });
 
-  const [submitted, setSubmitted] = useState(false);
+  const [setSubmitted] = useState(false);
   const [loading, setLoading] = useState(false);
   const fileInputRef = useRef(null);
 
